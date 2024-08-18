@@ -1,0 +1,6 @@
+name: imagegenerator
+services:
+  imagegen:
+    ports:
+      - 9999:9999
+    image: imagegen
